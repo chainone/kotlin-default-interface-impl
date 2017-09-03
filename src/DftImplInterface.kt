@@ -6,5 +6,7 @@ interface DftImplInterface {
 
 class DftImplClass: DftImplInterface
 
+fun createDftInterface() = DftImplClass() as DftImplInterface
+
 
 
